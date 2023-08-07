@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/@typehaus/metropolis" />
+  </head>
+  <body>
+    <main>
+      <div id="dropdownroot">
+        <header class="dropdownelm" id="firstelm">
+          <div class="dashline"></div>
+          <div id="title">Bundle & Save</div>
+          <div class="dashline"></div>
+        </header>
+        <section class="dropdownelm secondelm">
+          <div class="topelm">
+            <div id="radioparent">
+              <div>
+                <input
+                  type="radio"
+                  value="195"
+                  name="paymentselect"
+                  onchange="selectOffer(event)"
+                />
+              </div>
+              <div>
+                <div class="pair">1 Pair</div>
+                <div class="offer offertwo">
+                  <span
+                    style="
+                      font-family: Metropolis;
+                      font-size: 14px;
+                      font-weight: 500;
+                    "
+                    >DKK 195.00</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="offer" style="text-align: end">50% off</div>
+          </div>
+          <div class="restelm">
+            <div class="restinput labelsecond" style="color: white">#0</div>
+            <div class="restinput label">Size</div>
+            <div class="restinput label">Colour</div>
+            <div class="restinput labelsecond">#1</div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+              </select>
+            </div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">Colour</option>
+                <option value="">Red</option>
+                <option value="">Blue</option>
+                <option value="">Green</option>
+              </select>
+            </div>
+            <div class="restinput labelsecond">#2</div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+              </select>
+            </div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">Colour</option>
+                <option value="">Red</option>
+                <option value="">Blue</option>
+                <option value="">Green</option>
+              </select>
+            </div>
+          </div>
+        </section>
+        <section class="dropdownelm thirdelm" id="selected">
+          <div class="topelm">
+            <div id="radioparent">
+              <div>
+                <input
+                  type="radio"
+                  checked
+                  value="345"
+                  name="paymentselect"
+                  onchange="selectOffer(event)"
+                />
+              </div>
+              <div>
+                <div class="pair">2 Pair</div>
+                <div class="offertwo">
+                  <span>DKK 345.00</span>
+                  <span class="oldoffer">
+                    <div id="dashtwo"></div>
+                    DKK 195.00</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div>
+              <div id="popular">Most Popular</div>
+              <div class="offer" style="text-align: end">40% off</div>
+            </div>
+          </div>
+          <div class="restelm" id="show">
+            <div class="restinput labelsecond" style="color: white">#0</div>
+            <div class="restinput label">Size</div>
+            <div class="restinput label">Colour</div>
+            <div class="restinput labelsecond">#1</div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+              </select>
+            </div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">Colour</option>
+                <option value="">Red</option>
+                <option value="">Blue</option>
+                <option value="">Green</option>
+              </select>
+            </div>
+            <div class="restinput labelsecond">#2</div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">S</option>
+              </select>
+            </div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">Colour</option>
+              </select>
+            </div>
+          </div>
+        </section>
+        <section class="dropdownelm forthelm" id="">
+          <div class="topelm">
+            <div id="radioparent">
+              <div>
+                <input
+                  type="radio"
+                  value="528"
+                  name="paymentselect"
+                  onchange="selectOffer(event)"
+                />
+              </div>
+              <div>
+                <div class="pair">3 Pair</div>
+                <div class="offer offertwo">
+                  <span>DKK 528.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="offer" style="text-align: end">60% off</div>
+          </div>
+          <div class="restelm">
+            <div class="restinput labelsecond" style="color: white">#0</div>
+            <div class="restinput label">Size</div>
+            <div class="restinput label">Colour</div>
+            <div class="restinput labelsecond">#1</div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">S</option>
+              </select>
+            </div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">Colour</option>
+              </select>
+            </div>
+            <div class="restinput labelsecond">#2</div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">S</option>
+              </select>
+            </div>
+            <div class="restinput">
+              <select name="" id="">
+                <option value="">Colour</option>
+              </select>
+            </div>
+          </div>
+        </section>
+        <div class="dropdownelm" id="lastelm">
+          <div id="total">
+            <span id="leftside">Free 2 Day Shipping</span
+            ><span id="rightside"
+              ><span style="font-weight: 400">Total</span> : DKK 360.00</span
+            >
+          </div>
+          <button id="addtocart">+ Add to Cart</button>
+          <div id="copyright">
+            <sup style="font-size: 7.4px"> © </sup>Powered by Pumper
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+<script src="./assets/script/script.js"></script>

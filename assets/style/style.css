@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40.375rem;
+  height: 46.75rem;
+  border: 1px solid black;
+  font-family: "Inter";
+}
+
+#dropdownroot {
+  display: flex;
+  flex-direction: column;
+  width: 21.29588rem;
+  gap: 1.13rem;
+}
+.dropdownelm {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#firstelm {
+  justify-content: space-between;
+}
+.dashline {
+  background: #c8c8c8;
+  width: 5.87475rem;
+  height: 0.0565rem;
+}
+#title {
+  color: #007f61;
+  font-family: "Metropolis";
+  font-size: 1.12975rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.secondelm,
+.thirdelm,
+.forthelm {
+  border-radius: 0.22594rem;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+
+  height: 10.11131rem;
+  flex-direction: column;
+  height: auto;
+  width: 21.29588rem;
+  align-items: start;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: 1.24rem 1.36rem 1.27rem 1.36rem;
+}
+#lastelm {
+  flex-direction: column;
+  height: auto;
+  width: 21.29588rem;
+  align-items: start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+#radioparent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.13rem;
+}
+#radioparent input {
+  width: 0.90381rem;
+  height: 0.90381rem;
+  flex-shrink: 0;
+  stroke-width: 0.904px;
+  stroke: #dadada;
+
+  border-radius: 50%;
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-family: "Metropolis";
+  font-size: 0.90381rem;
+  font-style: normal;
+  font-family: Inter;
+
+  text-transform: uppercase;
+
+  justify-content: center;
+}
+.pair {
+  margin-bottom: 4px;
+  color: #000;
+  font-family: "Metropolis";
+  font-size: 0.90381rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#popular {
+  margin-bottom: 3px;
+  color: #007f61;
+  font-family: Inter;
+  font-size: 0.79081rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.offertwo {
+  flex-direction: row;
+
+  font-family: "Metropolis";
+
+  font-family: Inter;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.oldoffer {
+  color: #000;
+  font-family: Inter;
+  font-size: 0.62138rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3;
+  padding-top: 7px;
+  position: relative;
+}
+#dashtwo {
+  position: absolute;
+  top: 60%;
+  width: 3.50225rem;
+  height: 0.04238rem;
+  background: #9f9f9f;
+}
+.restelm {
+  padding-left: 0.7rem;
+  display: grid;
+  row-gap: 0.3rem;
+  height: 0px;
+  transform: scale(1, 0);
+  overflow: hidden;
+  grid-template-columns: 0.6fr 1.3fr 1.3fr;
+  transition: 0.2s ease-in-out;
+}
+.label {
+  color: #000;
+  font-family: Inter;
+  font-size: 0.62138rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.topelm {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.restelm select {
+  border: 0.8px solid silver;
+  width: 4.12363rem;
+  height: 1.58163rem;
+  margin-right: 0.9rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.67788rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.labelsecond {
+  padding-top: 0.4rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.56488rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#show {
+  transform: scale(1, 1);
+  height: auto;
+}
+#selected {
+  gap: 0.42rem;
+  border-radius: 0.22594rem;
+  border: 0.904px solid #007f61;
+  background: #f4fbf9;
+  padding: 1.24rem 1.24rem 1.27rem 1.24rem;
+}
+#total {
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#leftside {
+  color: #007f61;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.6;
+}
+#rightside {
+  color: #000;
+  font-family: "Inter";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#addtocart {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  background: #007f61;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+#copyright {
+  color: #000;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  width: 100%;
+  text-align: end;
+}
